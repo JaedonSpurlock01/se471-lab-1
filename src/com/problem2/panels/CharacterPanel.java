@@ -1,5 +1,6 @@
 package com.problem2.panels;
 
-public interface CharacterPanel {
+// Abstract Class that implements CharacterPanel
+abstract public interface CharacterPanel {
     void display();
 }

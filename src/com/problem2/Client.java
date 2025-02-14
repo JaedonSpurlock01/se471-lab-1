@@ -1,9 +1,10 @@
 package com.problem2;
 
-public class Main {
+public class Client {
     public static void main(String[] args) {
         Game game = new Game();
-        game.DisplayOptions();
+        String level = game.GetOptionFromUser();
+        game.SetupGame(level);
         game.Play();
     }
 }
